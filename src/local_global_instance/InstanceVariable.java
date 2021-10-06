@@ -23,10 +23,10 @@ public class InstanceVariable {
         System.out.println("Salary : " + salary);
     }
     public static void main(String[] args) {
-        InstanceVariable empOne= new InstanceVariable("Bari");
+        InstanceVariable empOne= new InstanceVariable("Rima");
         empOne.SetSalary(1000);
         empOne.printEmp();
-        //System.out.println();
+        
     }
 
 }

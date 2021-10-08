@@ -9,6 +9,6 @@ public class StaticImportDemo {
         System.out.println(PI);
         System.out.println(Math.E);
         System.out.println(Math.sqrt(9));
-        System.out.println( Integer.parseInt("45"));
+        System.out.println( Integer.parseInt("45")); 
     }
 }

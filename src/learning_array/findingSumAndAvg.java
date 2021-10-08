@@ -27,25 +27,24 @@ public class findingSumAndAvg {
         double avg = sum / len;
         System.out.println("The sum is : " + sum);
         System.out.println("The Avg is : " + avg);
-        
+
         //max
         double max = num[0];
-        for(int i = 1; i < 5; i++){
-            if(max<num[i]){
+        for (int i = 1; i < 5; i++) {
+            if (max < num[i]) {
                 max = num[i];
             }
-                
+
         }
-         System.out.println("Max num is : " + max);
-         
+        System.out.println("Max num is : " + max);
+
         //min
         double min = num[0];
-        for(int i = 1; i<len; i++){
-            if(min>num[i]){
+        for (int i = 1; i < len; i++) {
+            if (min > num[i]) {
                 min = num[i];
             }
         }
-        
-       
+
     }
 }
